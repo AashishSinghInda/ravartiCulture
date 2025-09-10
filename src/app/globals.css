@@ -1,3 +1,20 @@
 @import "tailwindcss";
 
 
+
+
+
+
+
+ .textcolor{
+  background: linear-gradient(to right, #d53f3d, #e37240);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}  
+
+   .customfont{
+  font-family: 'playfairDisplay';
+  font-weight: 500;
+}  
