@@ -61,7 +61,7 @@ export default function Header() {
 
 
     <div className="hidden w-full md:block md:w-auto" >
-      <ul className=" flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 lg:text-[16px] md:text-[10px]">
+      <ul className=" flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row lg:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 xl:text-[16px] md:text-[11px]">
         <li>
           <a href="#" className="block py-2 px-1   hover:text-[#d53f3d] " aria-current="page">PRODUCTS</a>
         </li>
