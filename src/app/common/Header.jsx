@@ -7,6 +7,7 @@ import { CiHeart } from "react-icons/ci";
 import { AiOutlineUser } from "react-icons/ai";
 import { FiShoppingBag } from "react-icons/fi";
 import { IoMdSearch } from "react-icons/io";
+import Link from "next/link";
 
 export default function Header() {
 
@@ -26,10 +27,11 @@ export default function Header() {
     {/* menu header  */}
     <nav className="bg-white  sticky top-0 z-50 shadow-md"   >
     <div className="max-w-[100%]  flex flex-wrap items-center justify-between lg:px-[40px] px-[20px] mx-auto  ">
-    <a href="https://flowbite.com/" className="flex items-center  rtl:space-x-reverse">
-        <img src="images/logo.png" className="lg:h-[120px] h-[70px]" alt="Flowbite Logo" />
+        <Link href={'/Home'}>
+        <img src="images/logo.png" className="lg:h-[120px] h-[70px] cursor-pointer" alt=""  />
+        </Link>
         
-    </a>
+  
 
  
 
@@ -63,7 +65,7 @@ export default function Header() {
     <div className="hidden w-full md:block md:w-auto" >
       <ul className=" flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row lg:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 xl:text-[16px] md:text-[11px]">
         <li>
-          <a href="#" className="block py-2 px-1   hover:text-[#d53f3d] " aria-current="page">PRODUCTS</a>
+          <a href="#" className="block py-2 px-1   hover:text-[#d53f3d] " aria-current="page"><Link href={'/product'}>PRODUCTS </Link></a>
         </li>
         <li>
           <a href="#" className="block py-2 px-1   hover:text-[#d53f3d]">PURE POSHAK</a>

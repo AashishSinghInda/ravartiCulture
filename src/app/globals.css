@@ -19,4 +19,52 @@
   font-weight: 500;
 }  
 
+/* animated dot */
+
  
+.dots {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #eebd2b;
+  border-radius: 50%;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(1){
+  height: 10px;
+  width: 10px;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+  height: 7px;
+  width: 7px;
+
+}
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+   height: 7px;
+  width: 7px;
+}
+.dot:nth-child(4) {
+  animation-delay: 0.6s;
+   height: 10px;
+  width: 10px;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0.6);
+    opacity: 0.6;
+  }
+  40% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
