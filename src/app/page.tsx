@@ -37,7 +37,7 @@ export default function Home() {
      <div className='relative'>
           <img src="images\banner_optimized.png"  alt="" className='  banner-image-h h-[80vh] w-[100%] '/>
           <div className='absolute top-0 left-[50%] translate-x-[-50%] text-center lg:py-[90px] py-[30px]'>
-          <h1 className=' py-[30px] lg:text-6xl text-3xl  text-white font-semibold  lg:leading-18 leading-10 customfont' >ADD A <span className='text-[#EEBD2B]'>FRESH TOUCH </span> TO <br />
+          <h1 className=' py-[30px] lg:text-6xl text-[36px]   text-white font-semibold  lg:leading-18 leading-10 customfont' >ADD A <span className='text-[#EEBD2B]'>FRESH TOUCH </span> TO <br />
               YOUR WARDROBE WITH</h1>
           <h2 className='  lg:text-[100px] text-[50px]  font-semibold leading-12 lg:leading-22  text-center text-[#E6531E] customfont  '>RAVARTI <br />
           CULTURE</h2>

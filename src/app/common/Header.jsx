@@ -123,7 +123,7 @@ export default function Header() {
         </div>
 
         {/* Drawer Menu Items */}
-        <ul className="flex flex-col gap-4 p-4 text-[18px] font-semibold">
+        <ul className="flex flex-col gap-4 p-4 text-[15.5px] font-semibold">
           <li><a href="#" className="hover:text-[#d53f3d]">PRODUCTS</a></li>
           <li><a href="#" className="hover:text-[#d53f3d]">PURE POSHAK</a></li>
           <li><a href="#" className="hover:text-[#d53f3d]">SEMI PURE POSHAK</a></li>
