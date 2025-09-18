@@ -45,7 +45,7 @@ export default function Header() {
                 <IoMdSearch className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100" />
                 <CiHeart className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100" />
                 <AiOutlineUser className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100" />
-                <FiShoppingBag className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100" />
+             <Link href={'/cart'}> <FiShoppingBag className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100" /> </Link>
               </div>
             
     <button onClick={()=> setIsOpen(true)}  type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden bg-white hover:bg-[#e77240] focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-black-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -93,10 +93,10 @@ export default function Header() {
       
       {/* ye only Desktop menu per show hoga*/}
      <div  className="hidden md:block">
-    <div className=" flex lg:gap-[10px] gap-[5px] ">
+    <div className=" flex lg:gap-[50px] gap-[5px] ">
       <CiHeart className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100"/>
       <AiOutlineUser className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100"/>
-      <FiShoppingBag className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100" />
+     <Link href={'/cart'}> <FiShoppingBag className="cursor-pointer p-[5px] text-3xl rounded hover:bg-gray-100" /> </Link>
       </div>
     </div>
 
@@ -126,7 +126,7 @@ export default function Header() {
 
         {/* Drawer Menu Items */}
         <ul className="flex flex-col gap-4 p-4 text-[15.5px] font-semibold">
-          <li><a href="#" className="hover:text-[#d53f3d]">PRODUCTS</a></li>
+         <li  className="hover:text-[#d53f3d]">   <Link href={'/product'}>PRODUCTS  </Link></li> 
           <li><a href="#" className="hover:text-[#d53f3d]">PURE POSHAK</a></li>
           <li><a href="#" className="hover:text-[#d53f3d]">SEMI PURE POSHAK</a></li>
           <li><a href="#" className="hover:text-[#d53f3d]">STITCHED POSHAKS</a></li>

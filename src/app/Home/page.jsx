@@ -37,8 +37,9 @@ export default function Home() {
                <AnimatedDots/>  
              <h1 className=' py-[30px] lg:text-6xl text-[36px]   text-white font-semibold  lg:leading-18 leading-10 customfont' >ADD A <span className='text-[#EEBD2B]'>FRESH TOUCH </span> TO <br />
                  YOUR WARDROBE WITH</h1>
-             <h2 className='  lg:text-[100px] text-[50 px]  font-semibold leading-12 lg:leading-22  text-center text-[#E6531E] customfont  '>RAVARTI <br />
+            <h2 className='  lg:text-[100px] text-[50 px]  font-semibold leading-12 lg:leading-22  text-center text-[#E6531E]  customfont  '>RAVARTI <br /> 
              CULTURE</h2>
+          
              <button className='text-white bg-gradient-to-r to-[#e77240] from-[#d53f3d] p-[10px_25px] rounded-3xl font-semibold flex justify-center items-center gap-[10px] mx-auto my-[20px] text-xl cursor-pointer'>SHOP NOW <FaArrowRight /></button>
            </div>
            </div>  
@@ -48,11 +49,11 @@ export default function Home() {
         < ProductCard/>
 
         {/* New Arrivals section */}
-        < AddToCart data={NEWARRIVALS}/>
+        < AddToCart title={"NEW ARRIVALS"} data={NEWARRIVALS}/>
 
 
               {/* Best Selling Products */}
-            < AddToCart     data={NEWARRIVALS} />
+            < AddToCart  title={"Best Selling Products"}   data={NEWARRIVALS} />
 
             <Footer/>
 

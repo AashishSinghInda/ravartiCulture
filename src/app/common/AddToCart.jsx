@@ -4,14 +4,16 @@ import { FiShoppingBag } from "react-icons/fi";
 import { MdOutlineStar } from "react-icons/md";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 
-export default function AddToCart({ data }) {
+
+
+export default function AddToCart({ data, title } ) {
 
     
   return (
     <>
        {/* text section design */}
-          <div className='bg-[#f8f7f2] py-[30px] my-[30px]'>
-          <h1 className='text-center text-4xl text-[#2c2122] customfont font-bold'>NEW ARRIVALS</h1>
+          <div className='bg-[#f8f7f2] py-[30px] my-[50px]'>
+          <h1 className='text-center text-4xl text-[#2c2122] customfont font-bold'>{title}</h1>
           <div className='flex justify-center items-center'>
             <p className='border border-[#e68569] w-[100px] text-center my-[20px]'></p>
             <div className='bg-[#eebd2b] h-[12px] w-[12px] rounded-2xl mx-[20px]'></div>
